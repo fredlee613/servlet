@@ -23,6 +23,7 @@ public class RequestParamServlet extends HttpServlet {
 
         String age = request.getParameter("age");
         System.out.println("request.getParameter(\"age\"); = " + age);
+        System.out.println();
 
         System.out.println("[이름이 같은 복수 파라미터 조회]");
         System.out.println("request.getParameterValues(\"username\");");
